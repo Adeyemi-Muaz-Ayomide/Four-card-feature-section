@@ -113,13 +113,6 @@ body{
 }
 
 @media (min-width: 680px) {
-    .title,.sec-title{
-        font-size: 23px;
-    }
-    .paragraph {
-        font-size: 18px;
-    }
-
     .cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -130,14 +123,7 @@ body{
     }
 }
 
-@media (min-width: 1024px) {
-    .title,.sec-title{
-        font-size: 25px;
-    }
-    .paragraph {
-        font-size: 20px;
-    }
-    
+@media (min-width: 1024px) {    
     .cards {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
